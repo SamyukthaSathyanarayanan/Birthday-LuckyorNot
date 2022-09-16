@@ -9,6 +9,8 @@ body {
 :root {
 	--primary-color: rgb(211, 190, 160);
   --yellow-color: rgb(207, 127, 6);
+  --light-grey: rgb(184, 189, 188);
+  --peach-color: burlywood;
 }
 
 .container {
@@ -44,14 +46,14 @@ input{
 
 button{
   margin-top: 1.5rem ;
-  background-color: rgb(184, 189, 188);
+  background-color: var(--light-grey);
   font-size: .9rem;
-  border-color: rgb(184, 189, 188) ;
+  border-color: var(--light-grey) ;
 }
 
 #output-msg{
   margin: 1rem;
-  background-color: burlywood;
+  background-color: var(--peach-color);
 }
 
 
